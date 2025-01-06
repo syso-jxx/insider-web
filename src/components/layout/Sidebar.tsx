@@ -1,3 +1,3 @@
 export default function Sidebar() {
-  return <div className='w-[244px] bg-sky-300'>Sidebar</div>;
+  return <div className='hidden w-[244px] bg-sky-300 lg:block'>Sidebar</div>;
 }
