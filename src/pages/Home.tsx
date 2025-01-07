@@ -1,7 +1,55 @@
+import HotTopicCard from '../components/home/HotTopicCard';
+import Inner from '../components/layout/Inner';
+
 export default function Home() {
   return (
-    <div className='bg-orange-200'>
-      <div className='mx-auto w-4/5 bg-pink-300'>Inner</div>
+    <div>
+      <Inner className='flex flex-col gap-10'>
+        <section>
+          <div className='mb-6 flex flex-col gap-4 lg:mb-8'>
+            <div className='font-bold lg:text-2xl'>이번주 토론 주제 </div>
+            <div className='hidden font-medium lg:block lg:text-lg'>
+              이번주 토론 주제에 투표 참여해주세요! 금주 투표 결과에 따라 다음주
+              주제 선정에 반영됩니다.
+            </div>
+          </div>
+          <div className='grid grid-cols-1 place-items-center gap-4 lg:grid-cols-3'>
+            <HotTopicCard
+              category='법률'
+              title='저조한 출산율 문제에 어떤 정책과 근본적인 문제는 무엇일까?'
+              description='‘현재 시행되고 있는 고등학교 및 중학교 교복제를 지속적으로 시행해야한다’에 대한 찬반..'
+              link='/'
+              backgroudColor='bg-primary'
+            />
+            <HotTopicCard
+              category='법률'
+              title='저조한 출산율 문제에 어떤 정책과 근본적인 문제는 무엇일까?'
+              description='‘현재 시행되고 있는 고등학교 및 중학교 교복제를 지속적으로 시행해야한다’에 대한 찬반..'
+              link='/'
+              backgroudColor='bg-primary'
+            />
+            <HotTopicCard
+              category='법률'
+              title='저조한 출산율 문제에 어떤 정책과 근본적인 문제는 무엇일까?'
+              description='‘현재 시행되고 있는 고등학교 및 중학교 교복제를 지속적으로 시행해야한다’에 대한 찬반..'
+              link='/'
+              backgroudColor='bg-primary'
+            />
+          </div>
+        </section>
+
+        <section>
+          <div>인싸이더 랭킹</div>
+        </section>
+
+        <section>
+          <div>토론 게시판</div>
+        </section>
+
+        <section>
+          <div>힐링 추천</div>
+        </section>
+      </Inner>
     </div>
   );
 }
