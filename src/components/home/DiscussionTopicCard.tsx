@@ -1,6 +1,6 @@
 import { useNavigate } from 'react-router-dom';
 
-interface HotTopicCardProps {
+interface DiscussionTopicCardProps {
   category: string;
   title: string;
   description: string;
@@ -8,13 +8,13 @@ interface HotTopicCardProps {
   backgroudColor: string;
 }
 
-export default function HotTopicCard({
+export default function DiscussionTopicCard({
   category,
   title,
   description,
   link,
   backgroudColor,
-}: HotTopicCardProps) {
+}: DiscussionTopicCardProps) {
   const navigate = useNavigate();
   return (
     <div

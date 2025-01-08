@@ -1,4 +1,5 @@
-import HotTopicCard from '../components/home/HotTopicCard';
+import DiscussionTopicCard from '../components/home/DiscussionTopicCard';
+import HotPost from '../components/home/HotPost';
 import Inner from '../components/layout/Inner';
 
 export default function Home() {
@@ -14,21 +15,21 @@ export default function Home() {
             </div>
           </div>
           <div className='grid grid-cols-1 place-items-center gap-4 lg:grid-cols-3'>
-            <HotTopicCard
+            <DiscussionTopicCard
               category='법률'
               title='저조한 출산율 문제에 어떤 정책과 근본적인 문제는 무엇일까?'
               description='‘현재 시행되고 있는 고등학교 및 중학교 교복제를 지속적으로 시행해야한다’에 대한 찬반..'
               link='/'
               backgroudColor='bg-primary'
             />
-            <HotTopicCard
+            <DiscussionTopicCard
               category='법률'
               title='저조한 출산율 문제에 어떤 정책과 근본적인 문제는 무엇일까?'
               description='‘현재 시행되고 있는 고등학교 및 중학교 교복제를 지속적으로 시행해야한다’에 대한 찬반..'
               link='/'
               backgroudColor='bg-primary'
             />
-            <HotTopicCard
+            <DiscussionTopicCard
               category='법률'
               title='저조한 출산율 문제에 어떤 정책과 근본적인 문제는 무엇일까?'
               description='‘현재 시행되고 있는 고등학교 및 중학교 교복제를 지속적으로 시행해야한다’에 대한 찬반..'
@@ -39,15 +40,29 @@ export default function Home() {
         </section>
 
         <section>
-          <div>인싸이더 랭킹</div>
+          <div className='mb-6 font-bold lg:mb-8 lg:text-2xl'>
+            인사이더 랭킹
+          </div>
+          <div className='gird grid-cols-2'>
+            <HotPost />
+            <HotPost />
+            <HotPost />
+            <HotPost />
+            <HotPost />
+            <HotPost />
+            <HotPost />
+            <HotPost />
+            <HotPost />
+            <HotPost />
+          </div>
         </section>
 
         <section>
-          <div>토론 게시판</div>
+          <div className='mb-6 font-bold lg:mb-8 lg:text-2xl'>토론 게시판</div>
         </section>
 
         <section>
-          <div>힐링 추천</div>
+          <div className='mb-6 font-bold lg:mb-8 lg:text-2xl'>힐링 추천</div>
         </section>
       </Inner>
     </div>
