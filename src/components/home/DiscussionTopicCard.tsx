@@ -1,4 +1,5 @@
 import { useNavigate } from 'react-router-dom';
+import Button from '../common/Button';
 
 interface DiscussionTopicCardProps {
   category: string;
@@ -18,14 +19,20 @@ export default function DiscussionTopicCard({
   const navigate = useNavigate();
   return (
     <div
-      className={`flex max-h-72 max-w-96 flex-col gap-6 rounded-2xl p-5 text-white lg:p-6 ${backgroudColor}`}
+      className={`grid max-w-96 gap-6 rounded-2xl p-5 text-white lg:p-6 ${backgroudColor}`}
     >
       <div>{category}</div>
-      <div className='font-semibold lg:text-xl'>{title}</div>
-      <div className='text-xs lg:text-base'>{description}</div>
-      <button onClick={() => navigate(`${link}`)}>
+      <div className='line-clamp-2 font-semibold lg:text-xl'>{title}</div>
+      <div className='line-clamp-2 text-xs lg:text-base'>{description}</div>
+      <Button
+        onClick={() => navigate(`${link}`)}
+        backgroundColor='bg-white'
+        textColor='text-primary'
+        rounded
+        className='mt-4'
+      >
         토론 페이지로 이동하기
-      </button>
+      </Button>
     </div>
   );
 }

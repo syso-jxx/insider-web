@@ -1,7 +1,5 @@
-import { ReactNode } from 'react';
-
 interface InnerProps {
-  children: ReactNode;
+  children: React.ReactNode;
   className?: string;
 }
 export default function Inner({ children, className }: InnerProps) {
