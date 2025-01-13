@@ -21,21 +21,21 @@ export default function Home() {
             title='저조한 출산율 문제에 어떤 정책과 근본적인 문제는 무엇일까?'
             description='‘현재 시행되고 있는 고등학교 및 중학교 교복제를 지속적으로 시행해야한다’에 대한 찬반'
             link='/'
-            backgroudColor='bg-primary'
+            backgroudColor='bg-primary-ff4200'
           />
           <DiscussionTopicCard
             category='법률'
             title='저조한 출산율 문제에 어떤 정책과 근본적인 문제는 무엇일까?'
             description='‘현재 시행되고 있는 고등학교 및 중학교 교복제를 지속적으로 시행해야한다’에 대한 찬반'
             link='/'
-            backgroudColor='bg-primary-300'
+            backgroudColor='bg-primary-ff7e3d'
           />
           <DiscussionTopicCard
             category='법률'
             title='저조한 출산율 문제에 어떤 정책과 근본적인 문제는 무엇일까?'
             description='‘현재 시행되고 있는 고등학교 및 중학교 교복제를 지속적으로 시행해야한다’에 대한 찬반'
             link='/'
-            backgroudColor='bg-primary-200'
+            backgroudColor='bg-primary-ffa375'
           />
         </div>
       </section>

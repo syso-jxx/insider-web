@@ -19,7 +19,7 @@ export default function DiscussionTopicCard({
   const navigate = useNavigate();
   return (
     <div
-      className={`grid max-w-96 gap-6 rounded-2xl p-5 text-white lg:p-6 ${backgroudColor}`}
+      className={`grid gap-6 rounded-2xl p-5 text-white lg:p-6 ${backgroudColor}`}
     >
       <div>{category}</div>
       <div className='line-clamp-2 font-semibold lg:text-xl'>{title}</div>
@@ -27,7 +27,7 @@ export default function DiscussionTopicCard({
       <Button
         onClick={() => navigate(`${link}`)}
         backgroundColor='bg-white'
-        textColor='text-primary'
+        textColor='text-primary-ff4200'
         rounded
         className='mt-4'
       >

@@ -5,11 +5,19 @@ export default {
     extend: {
       colors: {
         primary: {
-          100: '#FFEEE4',
-          200: '#FFA375',
-          300: '#FF7E3D',
-          400: '#F55A24',
-          DEFAULT: '#FF4200',
+          fff6f2: '#FFF6F2',
+          ffeee4: '#FFEEE4',
+          ffa375: '#FFA375',
+          ff7e3d: '#FF7E3D',
+          ff4200: '#FF4200',
+        },
+        grey: {
+          f8f8f8: '#F8F8F8',
+          eeeeee: '#EEEEEE',
+          ededed: '#EDEDED',
+          d4d4d4: '#D4D4D4',
+          _8f8f8f: '#8F8F8F',
+          _242424: '#242424',
         },
       },
       borderRadius: {

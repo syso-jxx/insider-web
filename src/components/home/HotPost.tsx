@@ -1,7 +1,7 @@
 export default function HotPost() {
   return (
     <div className='flex items-start justify-between gap-8 border-b-[1px] border-b-gray-300 pb-2'>
-      <div className='text-lg font-bold text-primary'>1</div>
+      <div className='text-primary-ff4200 text-lg font-bold'>1</div>
       <div className='grid flex-1 gap-2 lg:gap-3'>
         <div className='text-sm'>취업</div>
         <div className='truncate text-lg font-medium lg:text-xl'>

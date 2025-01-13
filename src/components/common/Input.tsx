@@ -17,7 +17,7 @@ export default function Input({
       value={value}
       placeholder={placeholder}
       onChange={onChange}
-      className='w-full rounded-md border-[1px] p-4 focus:outline-none focus:ring-[1px] focus:ring-primary'
+      className='focus:ring-primary-ff420 w-full rounded-md border-[1px] p-4 focus:outline-none focus:ring-[1px]'
     />
   );
 }

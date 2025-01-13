@@ -11,7 +11,7 @@ interface ButtonProps {
 export default function Button({
   children,
   textColor = 'text-white',
-  backgroundColor = 'bg-primary',
+  backgroundColor = 'bg-primary-ff4200',
   rounded = false,
   large = false,
   className,

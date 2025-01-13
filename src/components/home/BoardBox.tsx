@@ -19,7 +19,7 @@ export default function BoardBox({ icon, title }: BoardBoxProps) {
   return (
     <div className='rounded-xl border-2 border-gray-300 pt-4 lg:pb-1 lg:pt-6'>
       <div className='flex items-center justify-between px-4 pb-3 lg:px-6 lg:pb-4'>
-        <div className='flex items-center gap-2 text-xl font-bold text-primary'>
+        <div className='text-primary-ff4200 flex items-center gap-2 text-xl font-bold'>
           {icon}
           <span>{title}</span>
         </div>
